@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### use for your future boilerplate
+* Clone the mern-infrastructure repo.
+* Rename the newly mern-infrastructure folder to the name of your new project.
+* Delete the current local repo: rm -rf .git
+* Initialize a new repo: git init
+* Create a new repo on your personal GH account.
+* Copy the GH repo's URL.
+* Add the remote: git remote origin <paste the copied url>
+* Make the initial commit: git add -A then git commit -m "Initial commit"
+* Push for the first time: git push -u origin master
